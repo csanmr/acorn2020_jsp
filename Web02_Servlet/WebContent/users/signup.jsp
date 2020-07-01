@@ -1,3 +1,4 @@
+<%@page import="javax.swing.JOptionPane"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
@@ -29,9 +30,14 @@
 	<p>직업 : <%=job %></p>
 	<p>관심사</p>
 	<ul>
+	<%try { %>
 		<%for(String tmp:like){ %>
 		<li><%=tmp %></li>
 		<%} %>
+		
+		<%} catch(NullPointerException e){%>
+			<%e.printStackTrace();
+		}%>
 	</ul>
 	<p>하고 싶은 말 : <%=comment %></p>
 	<a href="signup_form.jsp">다시 입력해보기</a>

@@ -62,6 +62,7 @@
 					<input class="form-check-input" type="checkbox" name="like" value="css"/>스타일시트
 				</label>
 			</div>
+
 		</fieldset>
 		<div class="form-group">
 			<label for="comment">하고 싶은 말</label><br />

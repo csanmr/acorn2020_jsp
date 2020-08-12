@@ -5,8 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>/test4/main.jsp</title>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.css" />
 </head>
 <body>
+	<jsp:include page="../include/navbar3.jsp">
+		<jsp:param value="index" name="thisPage"/>
+	</jsp:include>
 <jsp:include page="header.jsp"></jsp:include>
 <%
 //header.jsp 페이지와 별개의 main.jsp페이지 이기 때문에

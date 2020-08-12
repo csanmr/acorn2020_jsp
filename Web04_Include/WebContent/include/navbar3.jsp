@@ -12,5 +12,6 @@
 		<li class="nav-item <%if(thisPage.equals("home")){%>active<%} %>"><a class="nav-link" href="${pageContext.request.contextPath}/test6/home.jsp">Home</a></li>
 		<li class="nav-item <%if(thisPage.equals("game")){%>active<%} %>"><a class="nav-link" href="${pageContext.request.contextPath}/test6/game.jsp">Game</a></li>
 		<li class="nav-item <%if(thisPage.equals("study")){%>active<%} %>"><a class="nav-link" href="${pageContext.request.contextPath}/test6/study.jsp">Study</a></li>
+		<li class="nav-item <%if(thisPage.equals("index")){%>active<%} %>"><a class="nav-link" href="${pageContext.request.contextPath}/index.jsp">index</a></li>
 	</ul>
 </div>
